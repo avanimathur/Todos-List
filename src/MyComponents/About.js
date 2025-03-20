@@ -1,3 +1,8 @@
+import React from 'react'
+
+export const About = () => {
+    return (
+        <div>
         <h2>About </h2>
         <br></br>
         <p>
@@ -14,3 +19,6 @@
             <li>Simple and user-friendly interface</li>
           </ul>
         </p>
+      </div>
+    )
+}
