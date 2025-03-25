@@ -13,7 +13,7 @@ app.use(express.json());
 
 // routes
 
-app.use('/api/v1/tasks', tasks);
+app.use('https://todos-list-jo28.onrender.com/api/v1/tasks', tasks);
 
 app.use(notFound);
 app.use(errorHandlerMiddleware);
