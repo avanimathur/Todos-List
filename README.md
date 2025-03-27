@@ -4,7 +4,8 @@ This is a simple and efficient **Personal To-Do List** application designed to h
 
 ## ✨ Features  
 - ✅ Add tasks  
-- ✅ Delete tasks  
+- ✅ Delete tasks
+- ✅ Update tasks  
 - ✅ Simple and user-friendly interface  
 
 ## 🛠️ Tech Stack  
