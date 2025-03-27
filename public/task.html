@@ -11,7 +11,7 @@
     <!-- main  -->
     <link rel="stylesheet" href="./main.css" />
 
-    <title>Edit Task || Final</title>
+    <title>Edit Task</title>
   </head>
   <body>
     <div class="container">
@@ -26,13 +26,17 @@
           <input type="text" name="name" class="task-edit-name" />
         </div>
         <div class="form-control">
-          <label for="completed">completed</label>
+          <label for="description">Description</label>
+          <textarea name="description" class="task-edit-description"></textarea> <!-- Added -->
+        </div>
+        <div class="form-control">
+          <label for="completed">Completed</label>
           <input type="checkbox" name="completed" class="task-edit-completed" />
         </div>
-        <button type="submit" class="block btn task-edit-btn">edit</button>
+        <button type="submit" class="block btn task-edit-btn">Edit</button>
         <div class="form-alert"></div>
       </form>
-      <a href="index.html" class="btn back-link">back to tasks</a>
+      <a href="index.html" class="btn back-link">Back to tasks</a>
     </div>
     <!-- axios -->
     <script

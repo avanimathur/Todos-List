@@ -20,17 +20,32 @@
   <body>
     <form class="task-form">
       <h4>task manager</h4>
+    
+      <!-- Task Name Input -->
       <div class="form-control">
         <input
           type="text"
           name="name"
           class="task-input"
-          placeholder="e.g. wash dishes"
+          placeholder="Eg: Assignment"
         />
-        <button type="submit" class="btn submit-btn">submit</button>
       </div>
+  
+      <div class="form-control">
+        <input
+          type="text"
+          name="description"
+          class="task-textarea"
+          placeholder="Add task description..."
+          rows="3"
+        ></input>
+      </div>
+    
+      <button type="submit" class="btn submit-btn">submit</button>
+    
       <div class="form-alert"></div>
     </form>
+    
     <section class="tasks-container">
       <p class="loading-text">Loading...</p>
       <div class="tasks"></div>

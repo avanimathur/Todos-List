@@ -443,3 +443,25 @@ form > :last-child {
   text-align: center;
   margin-top: 1rem;
 }
+
+.task-input,
+.task-textarea {
+  width: 100%;
+  padding: 0.375rem 1rem;
+  border-radius: var(--borderRadius);
+  background: var(--grey-50);
+  border: 1px solid var(--grey-300);
+  font-family: var(--bodyFont);
+}
+
+.task-textarea {
+  height: 5rem; 
+  resize: vertical; 
+}
+.form-control {
+  margin-bottom: 0.75rem; 
+}
+
+.submit-btn {
+  margin-top: 0.75rem;
+}
