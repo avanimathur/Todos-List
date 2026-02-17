@@ -13,7 +13,7 @@
     "bl": "^2.2.1",
     "bluebird": "^3.5.1",
     "body-parser": "^1.20.4",
-    "brace-expansion": "^1.1.11",
+    "brace-expansion": "^1.1.12",
     "braces": "^3.0.3",
     "bson": "^1.1.6",
     "bytes": "^3.1.2",
@@ -95,7 +95,7 @@
     "proxy-addr": "^2.0.7",
     "pstree.remy": "^1.1.8",
     "punycode": "^2.3.1",
-    "qs": "^6.14.1",
+    "qs": "^6.14.2",
     "range-parser": "^1.2.1",
     "raw-body": "^2.5.2",
     "readable-stream": "^2.3.8",
@@ -147,5 +147,9 @@
   "bugs": {
     "url": "https://github.com/avanimathur/Todos-List/issues"
   },
-  "homepage": "https://github.com/avanimathur/Todos-List#readme"
+  "homepage": "https://github.com/avanimathur/Todos-List#readme",
+  "overrides": {
+    "brace-expansion": "^1.1.12",
+    "qs": "^6.14.2"
+  }
 }
